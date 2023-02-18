@@ -11,7 +11,7 @@ let =enteredCity = document.getElementById('apiData')
 form.addEventListener('submit', async function(event){
     event.preventDefault();
     let city = search.value
-    const data = await fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`)
+    const data = await fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`)
     let response = await data.json()
     let temp = response.current.temp_c+'°C'
     console.log(temp)
