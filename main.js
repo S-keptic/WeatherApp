@@ -4,7 +4,7 @@ let search = document.getElementById('search');
 const apiKey = 'e27593f0061f4ec09f5171150231802'
 const form = document.getElementById('form');
 let =enteredCity = document.getElementById('apiData') 
-
+  
 
 
 
